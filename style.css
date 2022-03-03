@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'fira-sans',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin: 1rem 1rem;
+    max-width: 800px;
+    margin: 3rem auto;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+#input{
+    display: flex;
+}
+
+#input-task{
+    color: aliceblue;
+    font-size: 20px;
+    width: 500px;
+    flex: 1 1 0%;
+    background-color: rgb(51, 50, 50);
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+#input-task::placeholder{
+    color: rgb(213, 217, 221);
+}
+
+#btn-submit{
+    border: none;
+    font-size: 1.8rem;
+    color: palevioletred;
+    font-weight: 700;
+    background-image: linear-gradient(to right,rgb(243, 76, 104),purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn-submit:hover{
+    opacity: 0.6;
+}
+
+#btn-submit:active{
+    opacity: 0.6;
+}
+
+main{
+    /* display: flex; */
+    font-size: 20px;
+    width: 800px;
+    /* flex: 1 1 0%; */
+    /* background-color: rgb(51, 50, 50); */
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin: 0 auto;
+}
+
+
+main h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0rem;
+    color: gray;
+}
+
+#Tasks{
+    margin-top: 1rem;
+    display: flex;
+    background-color: rgb(51, 50, 50);
+    /* background-color: azure; */
+}
+
+.actions{
+    display: flex;
+}
+
+
+.text{
+    font-size: 20px;
+    width: 600px;
+    flex: 1 1 0%;
+    background-color: rgb(51, 50, 50);
+    padding: 0.5rem;
+    border: none;
+    /* border-radius: 1rem; */
+    margin-right: 0rem;
+}
+
+#tasks-input{
+    color: rgb(184, 181, 181);
+}
+
+.edit{
+    border: none;
+    font-size: 1.4rem;
+    color: palevioletred;
+    font-weight: 500;
+    background-image: linear-gradient(to right,hotpink,rgb(114, 203, 206));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.delete{
+    margin-left: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    color: palevioletred;
+    font-weight: 500;
+    background-image: linear-gradient(to right,crimson,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
